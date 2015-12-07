@@ -1,5 +1,31 @@
+span {
+    float:left;
+    color:green;
+    margin-left:20px;
+}
+.menu {
+  list-style-type: none;
+
+}
+.menu li {
+   display:inline;
+   margin-left: 20px;
+}
 header {
-    text-align: center;}
+    background-color: black;
+    padding: 20px;
+}
+
+body {
+    margin:0;
+}
+
+nav {
+    background-color: black;
+    color:black;
+    width: 960px;
+    margin: auto;
+}
 
 .grey-bg {
     background-color: #f7f7f7;}
@@ -8,7 +34,8 @@ header {
     color: #777777;
 }
 section{
-    color:#777777;}
+    color:#777777;
+    margin-left: 80px}
 h3{
     color:black;
-    font-weight:18px }         
+    font-weight:18px }
