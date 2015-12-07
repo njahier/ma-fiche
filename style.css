@@ -49,7 +49,7 @@ h3{
   list-style-type: none;
   }
 
-li{
+.trombi li{
   text-align: center;
   float: left;
   margin: 5px;
