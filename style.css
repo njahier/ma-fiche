@@ -5,26 +5,35 @@ span {
 }
 .menu {
   list-style-type: none;
+}
 
+.menu a{
+  text-decoration: none;
+  outline: none;
+  color:white;
 }
 .menu li {
    display:inline;
-   margin-left: 20px;
+   margin-left: 10px;
 }
 header {
     background-color: black;
     padding: 20px;
+    font-size: 30px;
 }
 
 body {
     margin:0;
 }
 
+
 nav {
     background-color: black;
     color:black;
     width: 960px;
     margin: auto;
+    text-decoration: none;
+    outline: none;
 }
 
 .grey-bg {
@@ -35,7 +44,6 @@ nav {
 }
 section{
     color:#777777;
-    margin-left: 80px;
 }
 h3{
     color:black;
@@ -57,5 +65,83 @@ h3{
   width: 150px;
 }
 .largeur{
-   width: 960px;
+  width: 960px;
+  margin: auto;
+}
+
+.center{
+  width:960px;
+  margin-left: 150px;
+  min-height: 215px;
+  padding-top:1em;
+  padding-bottom:1em;
+
+}
+
+.texte, .image{
+  float:left;
+  text-align: center;
+  width:50%;
+}
+
+.left{
+  float:left;
+  text-align: center;
+  width:50%;
+}
+
+.right{
+  float:left;
+  width:50%;
+  text-align: center;
+}
+
+.colorRed{
+  border: 2px red solid;
+
+.colorGreen{
+  border: 2px green solid;
+}
+}
+
+.zoomImage{
+  zoom:150%;
+  -moz-transform: scale(2);
+}
+form {
+    /* Pour le centrer dans la page */
+    margin: 0 auto;
+    width: 400px;
+    /* Pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+.button {
+    /* Pour positionner les boutons de la même manière que les champs textuels */
+    padding-left: 90px; /* même dimension que les étiquettes */
+}
+form div + div {
+    margin-top: 1em;
+}
+
+textarea {
+    /* Pour aligner correctement les champs multilignes et leurs étiquettes */
+    vertical-align: top;
+
+    /* Pour donner assez d'espace pour entrer du texte */
+    height: 5em;
+    /* Pour permettre aux utilisateurs de redimensionner un champ textuel horizontalement
+       Cela ne marche pas avec tous les navigateurs  */
+    resize: vertical;
+    }
+
+h1 {
+    text-align: center
+    }
+#photo {
+  display:block;
+  width:150px;
+  height:200px;
+
 }
