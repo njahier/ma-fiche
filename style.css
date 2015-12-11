@@ -98,10 +98,10 @@ h3{
 
 .colorRed{
   border: 2px red solid;
+}
 
 .colorGreen{
   border: 2px green solid;
-}
 }
 
 .zoomImage{
@@ -141,7 +141,11 @@ h1 {
     }
 #photo {
   display:block;
-  width:150px;
+  width:200px;
   height:200px;
 
+}
+.navbar{
+  /*font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
+  font-style: italic;
 }
